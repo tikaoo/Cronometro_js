@@ -1,0 +1,35 @@
+body {
+  background: #333;
+}
+h1 {
+  color: white;
+}
+
+div {
+  width: 300px;
+  height: 190px;
+  margin-left: -150px; /* metade da largura */
+  margin-top: -150px; /* metade da altura */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 1px solid red;
+  text-align: center;
+}
+button {
+  height: 2.2em;
+  width: 5.5em;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.start-btn {
+  background-color: green;
+}
+.pause-btn {
+  background-color: grey;
+}
+.stop-btn {
+  background-color: red;
+}
